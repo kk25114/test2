@@ -9,9 +9,9 @@ export interface OpenAIModel {
 
 export enum OpenAIModelID {
   GPT_3_5 = 'gpt-3.5-turbo',
-  gpt_3.5_turbo_0613 = 'gpt-3.5-turbo-0613',
-  gpt_3.5_turbo_16k='gpt-3.5-turbo-16k',
-  gpt_3.5_turbo_16k_0613='gpt-3.5-turbo-16k-0613',
+  gpt_3_5_turbo_0613 = 'gpt-3.5-turbo-0613',
+  gpt_3_5_turbo_16k='gpt-3.5-turbo-16k',
+  gpt_3_5_turbo_16k_0613='gpt-3.5-turbo-16k-0613',
   GPT_4 = 'gpt-4',
   GPT_4_32K = 'gpt-4-32k',
 }
@@ -26,20 +26,20 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     maxLength: 12000,
     tokenLimit: 4000,
   },
-  [OpenAIModelID.gpt_3.5_turbo_0613]: {
-    id: OpenAIModelID.gpt_3.5_turbo_0613,
+  [OpenAIModelID.gpt_3_5_turbo_0613]: {
+    id: OpenAIModelID.gpt_3_5_turbo_0613,
     name: 'gpt_3.5_turbo_0613',
     maxLength: 12000,
     tokenLimit: 4000,
   },
-  [OpenAIModelID.gpt_3.5_turbo_16k]: {
-    id: OpenAIModelID.gpt_3.5_turbo_16k,
+  [OpenAIModelID.gpt_3_5_turbo_16k]: {
+    id: OpenAIModelID.gpt_3_5_turbo_16k,
     name: 'gpt-3.5-turbo-16k (max 16,384 tokens)',
     maxLength: 48000,
     tokenLimit: 32000,
   },
-  [OpenAIModelID.gpt_3.5_turbo_16k_0613]: {
-    id: OpenAIModelID.gpt_3.5_turbo_16k_0613,
+  [OpenAIModelID.gpt_3_5_turbo_16k_0613]: {
+    id: OpenAIModelID.gpt_3_5_turbo_16k_0613,
     name: 'gpt-3.5-turbo-16k-0613 (max 16,384 tokens)',
     maxLength: 48000,
     tokenLimit: 32000,
