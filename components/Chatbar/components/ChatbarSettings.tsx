@@ -52,7 +52,7 @@ export const ChatbarSettings = () => {
 
       <SidebarButton
         text={t('Settings')}
-        icon={<IconSettings size={18} />}
+        icon={<IconSettings size={17} />}
         onClick={() => setIsSettingDialog(true)}
       />
 
