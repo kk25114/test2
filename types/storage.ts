@@ -17,5 +17,5 @@ export interface LocalStorage {
   showChatbar: boolean;
   showPromptbar: boolean;
   // added plugin keys (4/3/23)
-  //pluginKeys: PluginKey[];
+  pluginKeys: PluginKey[];
 }
