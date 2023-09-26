@@ -46,7 +46,7 @@ export const ChatbarSettings = () => {
 
       <SidebarButton
         text={t('Export data')}
-        icon={<IconFileExport size={18} />}
+        icon={<IconFileExport size={17} />}
         onClick={() => handleExportData()}
       />
 
